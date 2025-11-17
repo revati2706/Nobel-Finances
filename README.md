@@ -1,16 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Noble Finance — Demo Frontend Website
 
-Currently, two official plugins are available:
+This is a **frontend demo project** built for practice and design conversion.  
+It represents a modern financial services landing page with multiple sections and smooth UI layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 **Built using React + Tailwind CSS**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖥 Live Demo
+(Replace this with your Netlify link)
+https://yourproject.netlify.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Project Overview
+
+Landing page includes:
+- Hero section with headline & CTA
+- Services section (Tax filing, Audit assistance, Bookkeeping)
+- Testimonials slider
+- Target audience section (Freelancers, Families, Small businesses)
+- Contact CTA section
+- Responsive UI for mobile, tablet & desktop
+
+⚠️ **Note:**  
+This website is a **demo only** and is not associated with a real financial company.
+
+---
+
+## 🛠 Tech Stack
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Vite / CRA (based on your setup)
+- Netlify deployment
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## 🌐 Deployment
+
+This project is deployed on Netlify using GitHub integration.
+
+## 🙌 Purpose
+
+This project was created to:
+- Practice UI/UX frontend development
+- Improve React & Tailwind CSS skills
+- Learn deployment workflow (GitHub → Netlify)
