@@ -1,0 +1,13 @@
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: "nunito";
+  src: url("../public/font/Nunito/static/Nunito-Regular.ttf");
+}
+
+
+button:hover{
+  background-color:#d1f8db ;
+  color:#2e4f22 ;
+}
