@@ -9,8 +9,7 @@ It represents a modern financial services landing page with multiple sections an
 ---
 
 ## 🖥 Live Demo
-(Replace this with your Netlify link)
-https://yourproject.netlify.app
+https://nobel-finance.netlify.app/
 
 ---
 
