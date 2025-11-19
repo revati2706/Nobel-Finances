@@ -1,6 +1,6 @@
 import React from 'react'
 import customPlan from "../../assets/img/customPlan.avif"
-
+import { Link } from 'react-router-dom'
 const CustomPlan = () => {
   return (
     <section className='min-h-[600px] w-full mt-30 flex items-center justify-center p-10'>
@@ -13,9 +13,9 @@ const CustomPlan = () => {
             At Noble Finances, we believe that tax filing should be seamless, accurate, and stress-free. 
             Our approach is centered on three key pillars: simplicity, accuracy, and security.
           </p>
-          <button className='bg-white px-6 rounded-full py-3 text-base text-[#2e4f22]'>
+         <Link to='/services'><button className='bg-white px-6 rounded-full py-3 text-base text-[#2e4f22]'>
             Learn more
-          </button>
+          </button></Link> 
         </div>
 
         {/* Right Part */}

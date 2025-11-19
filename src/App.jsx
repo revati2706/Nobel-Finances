@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer'
 import LandingPage from './pages/LandingPage'
 import BookAppoint from './pages/BookAppoint'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import CustomBuild from './pages/CustomBuild'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<LandingPage/>}/>
           <Route path='/book' element={<BookAppoint/>}/>
+          <Route path='/services' element={<CustomBuild/>}/>
         </Routes>
 
         <Footer/>

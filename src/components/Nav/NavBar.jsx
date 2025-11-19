@@ -13,7 +13,8 @@ const NavBar = () => {
         </div>
       </Link>{" "}
       <div className="flex gap-5 items-center text-[12px] font-[nunito] ">
-        <span className="">Services</span>
+       
+       <Link to='/services'><span className="">Services</span></Link> 
 
         <Link to="/book">
           <button className="bg-[#2e4f22] text-white p-2 rounded-full">
